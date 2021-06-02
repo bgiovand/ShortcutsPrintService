@@ -10,21 +10,21 @@
     "ip": "^1.1.5",
     "node-thermal-printer": "^4.1.2"
   },
-  "bin" : { 
-    "scshortserver" : "./server.js"
+  "bin": {
+    "scshortserver": "./server.js"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/cornejong/ShortcutsPrintService.git"
+    "type": "git",
+    "url": "https://github.com/cornejong/ShortcutsPrintService.git"
   },
-  "author": { 
-    "name" : "Corné de Jong",
-    "email" : "me@corne.co",
-    "url" : "http://corne.co/"
+  "author": {
+    "name": "Corné de Jong",
+    "email": "me@corne.co",
+    "url": "http://corne.co/"
   },
   "license": "ISC"
 }
