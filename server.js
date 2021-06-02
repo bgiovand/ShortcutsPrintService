@@ -13,7 +13,7 @@ app.use(express.json());
 /* Since you probably just use a single printer */
 app.printer = {
   type: PrinterTypes.EPSON,
-  interface: "tcp://192.168.178.157",
+  interface: `tcp://${printerIP}`,
   characterSet: "SLOVENIA",
   removeSpecialCharacters: false,
   lineCharacter: "=",
