@@ -4,7 +4,6 @@ WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install --production
 COPY . .
-VOLUME ["/app/assets"]
-VOLUME ["/app/routes"]
+VOLUME ["/app/assets", "/app/routes"]
 EXPOSE 3344
 CMD ["node", "server.js"]
