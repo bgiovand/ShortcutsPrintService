@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const ip = require("ip");
-cont printerIP = process.env.PRINTERIP;
+const printerIP = process.env.PRINTERIP;
 const port = 3344;
 
 /* Auto parse json request body */
