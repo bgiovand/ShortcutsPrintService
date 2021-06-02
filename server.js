@@ -6,6 +6,8 @@ const ip = require("ip");
 const printerIP = process.env.PRINTERIP;
 const port = 3344;
 
+console.log(`Printer IP set as ${printerIP}`)
+
 /* Auto parse json request body */
 app.use(express.json()); 
 
