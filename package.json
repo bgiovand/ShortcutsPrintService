@@ -13,18 +13,11 @@
   "bin": {
     "scshortserver": "./server.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
   "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cornejong/ShortcutsPrintService.git"
-  },
-  "author": {
-    "name": "Corné de Jong",
-    "email": "me@corne.co",
-    "url": "http://corne.co/"
-  },
-  "license": "ISC"
+    "start": "node server.js",
+    "start.dev": "nodemon"
+  }
 }

@@ -6,4 +6,4 @@ RUN npm install --production
 COPY . .
 VOLUME ["/app/assets", "/app/routes"]
 EXPOSE 3344
-CMD ["node", "server.js"]
+CMD ["npm", "run", "start.dev"]
